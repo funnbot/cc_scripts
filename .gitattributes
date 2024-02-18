@@ -1,0 +1,5 @@
+*.json text
+*.lua text
+
+.gitattributes text export-ignore
+.gitignore text export-ignore

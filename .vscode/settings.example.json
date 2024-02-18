@@ -1,0 +1,16 @@
+{
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.workspace.checkThirdParty": true,
+    "Lua.workspace.userThirdParty": [
+        "path/to/lua_addons"
+    ],
+    "Lua.runtime.builtin": {
+        "io": "disable",
+        "os": "disable"
+    },
+    "Lua.workspace.library": [
+        "path/to/lua_addons/cc_tweaked/library",
+        "path/to/lua_addons/cc_create/library",
+        "path/to/lua_addons/ccc_bridge/library"
+    ]
+}
